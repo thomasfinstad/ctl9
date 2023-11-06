@@ -1,0 +1,13 @@
+{
+    "name": "Alpha Layout",
+    "toggle-hidden": {"or": [
+        {"and":[{"button":8},{"button-once":9}]},
+        {"and":[{"button-once":8},{"button":9}]}
+    ]},
+    "layers": [
+        {
+            "name": "Lowercase Letters",
+            "config": "base.json"
+        }
+    ]
+}

@@ -1,0 +1,195 @@
+{
+    "activator": null,
+    "background": "t9no-base-background.png",
+    "sections" :{
+        "1": {
+            "activator": {
+                "or":[
+                    {"and": [
+                        {"axis":{"id":0,"min":-1,"max":-0.5}},
+                        {"axis":{"id":1,"min":-1,"max":-0.5}}
+                    ]},
+                    {"button":12}
+                ]
+            },
+            "image": {
+                "file": "t9no-section-selected.png",
+                "placement": [0,0]
+            },
+            "inputs": [
+                {"activator":{"button-once":3},"action":"VK_SP9"},
+                {"activator":{"button-once":2},"action": "VK_SP10"},
+                {"activator":{"button-once":0},"action": "VK_SPACE"},
+                {"activator":{"button-once":1},"action": "VK_ENTER"}
+            ]
+        },
+        "2": {
+            "activator": {
+                "or":[
+                    {"and": [
+                        {"axis":{"id":0,"min":-0.5,"max":0.5}},
+                        {"axis":{"id":1,"min":-1,"max":-0.5}}
+                    ]},
+                    {"button":12}
+                ]
+            },
+            "image": {
+                "file": "t9no-section-selected.png",
+                "placement": [120,0]
+            },
+            "inputs": [
+                {"activator":{"button-once":3},"action":"VK_SP4"},
+                {"activator":{"button-once":2},"action": "VK_A"},
+                {"activator":{"button-once":0},"action": "VK_B"},
+                {"activator":{"button-once":1},"action": "VK_C"}
+            ]
+        },
+        "3": {
+            "activator": {
+                "or":[
+                    {"and": [
+                        {"axis":{"id":0,"min":0.5,"max":1}},
+                        {"axis":{"id":1,"min":-1,"max":-0.5}}
+                    ]},
+                    {"and": [{"button-once":12},{"button-once":15}]}
+                ]
+            },
+            "image": {
+                "file": "t9no-section-selected.png",
+                "placement": [240,0]
+            },
+            "inputs": [
+                {"activator":{"button-once":3},"action":"VK_SP7"},
+                {"activator":{"button-once":2},"action": "VK_D"},
+                {"activator":{"button-once":0},"action": "VK_E"},
+                {"activator":{"button-once":1},"action": "VK_F"}
+            ]
+        },
+        "4": {
+            "activator": {
+                "or":[
+                    {"and": [
+                        {"axis":{"id":0,"min":-1,"max":-0.5}},
+                        {"axis":{"id":1,"min":-0.5,"max":0.5}}
+                    ]},
+                    {"button":14}
+                ]
+            },
+            "image": {
+                "file": "t9no-section-selected.png",
+                "placement": [0,120]
+            },
+            "inputs": [
+                {"activator":{"button-once":3},"action":"VK_ESC"},
+                {"activator":{"button-once":2},"action": "VK_G"},
+                {"activator":{"button-once":0},"action": "VK_H"},
+                {"activator":{"button-once":1},"action": "VK_I"}
+            ]
+        },
+        "5": {
+            "activator": {
+                "and":[
+                    {"and": [
+                        {"axis":{"id":0,"min":-0.5,"max":0.5}},
+                        {"axis":{"id":1,"min":-0.5,"max":0.5}}
+                    ]},
+                    {"not":{"or": [{"button-once":12},{"button-once":13},{"button-once":14},{"button-once":15}]}}
+                ]
+            },
+            "image": {
+                "file": "t9no-section-selected.png",
+                "placement": [120,120]
+            },
+            "inputs": [
+                {"activator":{"button-once":3},"action":"VK_BACKSPACE"},
+                {"activator":{"button-once":2},"action": "VK_J"},
+                {"activator":{"button-once":0},"action": "VK_K"},
+                {"activator":{"button-once":1},"action": "VK_L"}
+            ]
+        },
+        "6": {
+            "activator": {
+                "or":[
+                    {"and": [
+                        {"axis":{"id":0,"min":0.5,"max":1}},
+                        {"axis":{"id":1,"min":-0.5,"max":0.5}}
+                    ]},
+                    {"button":15}
+                ]
+            },
+            "image": {
+                "file": "t9no-section-selected.png",
+                "placement": [240,120]
+            },
+            "inputs": [
+                {"activator":{"button-once":3},"action":"VK_SP6"},
+                {"activator":{"button-once":2},"action": "VK_M"},
+                {"activator":{"button-once":0},"action": "VK_N"},
+                {"activator":{"button-once":1},"action": "VK_O"}
+            ]
+        },
+        "7": {
+            "activator": {
+                "or":[
+                    {"and": [
+                        {"axis":{"id":0,"min":-1, "max":-0.5}},
+                        {"axis":{"id":1,"min":0.5,"max":1}}
+                    ]},
+                    {"and": [{"button-once":13},{"button-once":14}]}
+                ]
+            },
+            "image": {
+                "file": "t9no-section-selected.png",
+                "placement": [0,240]
+            },
+            "inputs": [
+                {"activator":{"button-once":3},"action":"VK_Q"},
+                {"activator":{"button-once":2},"action": "VK_P"},
+                {"activator":{"button-once":0},"action": "VK_S"},
+                {"activator":{"button-once":1},"action": "VK_R"}
+            ]
+        },
+        "8": {
+            "activator": {
+                "or":[
+                    {"and": [
+                        {"axis":{"id":0,"min":-0.5,"max":0.5}},
+                        {"axis":{"id":1,"min":0.5,"max":1}}
+                    ]},
+                    {"button":13}
+                ]
+            },
+            "image": {
+                "file": "t9no-section-selected.png",
+                "placement": [120,240]
+            },
+            "inputs": [
+                {"activator":{"button-once":3},"action":"VK_TAB"},
+                {"activator":{"button-once":2},"action": "VK_T"},
+                {"activator":{"button-once":0},"action": "VK_U"},
+                {"activator":{"button-once":1},"action": "VK_V"}
+            ]
+        },
+        "9": {
+            "activator": {
+                "or":[
+                    {"and": [
+                        {"axis":{"id":0,"min":0.5,"max":1}},
+                        {"axis":{"id":1,"min":0.5,"max":1}}
+                    ]},
+                    {"and": [{"button-once":13},{"button-once":15}]}
+                ]
+            },
+            "image": {
+                "file": "t9no-section-selected.png",
+                "placement": [240,240]
+            },
+            "inputs": [
+                {"activator":{"button-once":3},"action":"VK_Z"},
+                {"activator":{"button-once":2},"action": "VK_W"},
+                {"activator":{"button-once":0},"action": "VK_X"},
+                {"activator":{"button-once":1},"action": "VK_Y"}
+            ]
+        }
+    }
+}
